@@ -15,5 +15,18 @@ public class Main {
         System.out.println("Double Min value = " + myMinDoubleValue);
         //double precision 64 bits
         System.out.println("Double Max Value = " + myMaxDoubleValue);
+
+        //declaring the variables
+//        int myIntValue = 37;
+//        float myFloatValue = (float)37.25;
+//        double myDoubleValue = 37d;
+
+        int myIntValue = 5/2;
+        float myFloatValue = 5f/3f;
+        double myDoubleValue = 5d/3d;
+        System.out.println("MyIntValue = " + myIntValue);
+        System.out.println("MyIntValue = " + myFloatValue);
+        System.out.println("MyIntValue = " + myDoubleValue);
+
     }
 }
